@@ -1,10 +1,10 @@
 language: java
 jdk:
-  - oraclejdk9
+  - oraclejdk17
 
 addons:
   apt:
     packages:
-      - oracle-java8-installer
+      - oracle-java17-installer
 before_install:
   mvn -pl typescript-generator-core test edu.illinois:nondex-maven-plugin:1.1.2:nondex -Dtest=cz.habarta.typescript.generator.Jackson2ParserTest#testJsonNumberMethodValuedEnum
