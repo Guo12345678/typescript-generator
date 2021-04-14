@@ -1,5 +1,5 @@
 language: java
 jdk:
-  oraclejdk8
+  oraclejdk15
 before_install:
   mvn -pl typescript-generator-core test edu.illinois:nondex-maven-plugin:1.1.2:nondex -Dtest=cz.habarta.typescript.generator.Jackson2ParserTest#testJsonNumberMethodValuedEnum
