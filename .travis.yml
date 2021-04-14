@@ -1,4 +1,4 @@
-language: java
+language: java 8
 jdk:
   oraclejdk17
 before_install:
